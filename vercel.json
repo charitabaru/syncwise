@@ -1,0 +1,39 @@
+{
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/sign-in(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/sign-up(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/sso-callback(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/factor-one(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/dashboard(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
