@@ -1,6 +1,6 @@
 # 🚀 SyncWise - Modern Task Management App
 
-**Live Demo:** [https://syncwise.vercel.app/](https://syncwise.vercel.app/)
+**Live Demo: ** [https://syncwise.vercel.app/](https://syncwise.vercel.app/)
 
 ![SyncWise Screenshot](./public/screenshot.png)
 
